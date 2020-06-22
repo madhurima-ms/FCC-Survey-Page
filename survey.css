@@ -1,42 +1,53 @@
 .clue {
-    margin-left: 0.25rem;
-    font-size: 0.9rem;
-    color: #e4e4e4;
-  }
+  margin-left: 0.25rem;
+  font-size: 0.9rem;
+  color: #e4e4e4;
+}
 
-  body{
-    /* background-color: rgb(160, 114, 160); */
-    backdrop-filter: blur(8px);
-    background-image: url('image/iter.jpg');
-    
-  }
- 
-  .header { 
+body{
+  /* background-color: rgb(160, 114, 160); */
+  backdrop-filter: blur(8px);
+  background-image: url('image/iter.jpg');
+  
+}
+.page{
+  height:50px;
+  resize:vertical
 
-    grid-area: header;
-    font-size: 30px;
-    text-align: center;
+}
+.head { 
+  text-align: center;
+  display: grid;
+  grid-area: header;
+  font-size: 20px;
+  text-align: center;
+  width: 44%;
+  margin: 0 auto;
 
-  }
- 
- .submit-button {
-    display: block;
-    width: 15%;
-    padding: 0.55rem;
-    background: rgb(68, 104, 128);
-    color: inherit;
-    border-radius: 2px;
-    cursor: pointer;
-    margin: auto;
- }
- .input-checkbox {
-    display: inline-block;
-    margin-right: 0.625rem;
-    min-height: 1.25rem;
-    min-width: 1.25rem;
-  }
- 
-  .form-style{
+}
+.submit-button {
+  display: block;
+  padding: 0.35rem;
+  background: rgb(68, 104, 128);
+  margin: 0 auto;
+  width: 40%;
+}
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
 
-    text-align: left;
-  }
+.form-style{
+ text-align: left;
+  width: 20%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 10px;
+  border-width: 1px;
+}
+.space{
+display: grid;
+}
+

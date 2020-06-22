@@ -5,28 +5,32 @@
     <link href="survey.css" type="text/css" rel="stylesheet">
   </head> 
   <body>
+   
     <div class="head">
-      <h1 id="titile"> SAAT 2020 - Online Application form</h1>
+    <em><h1 id="titile"> SAAT 2020 - Online Application form</h1></em>  
     </div>
-    <p id="descriptions">SIKSHA 'O' ANUSANDHAN ADMISSION TEST</p>
+  
+      <p class="head" id="descriptions"><strong><u>SIKSHA 'O' ANUSANDHAN ADMISSION TEST</u></strong></p><br>
+   
+
      
    <form id="survey-form">
     <div class="form-style">
        
-      <label id="name-label" for="name">Name of the Candidate</label>
-      <input type="text" name="fname" id="name" placeholder="Name" ><br>
+      <label id="name-label" class="space" for="name">Name of the Candidate</label>
+      <input type="text" name="fname" id="name"  placeholder="Name" >
       <label> Date of birth</label>
-      <input type="date" name="dob"><br>
+      <input type="date" name="dob">
       <label for="male">Male
       <input type="radio" name="male" id="male"></label>
       <label for="female">Female
       <input type="radio" name="female" id="female"></label>
       <label for="other">Other 
-      <input type="radio" name="other" id="other"></label><br>
+      <input type="radio" name="other" id="other"></label>
       <label  id="number-label" for="mnumber">Mobile Number</label>
-      <input type="number" id="number" maxlength="10" minlength="0" required="true" placeholder="Mobile Number"><br>
+      <input type="number" id="number" maxlength="10" minlength="0" required="true" placeholder="Mobile Number">
       <label id="email-label" for="email">Email Address </label>
-      <input type="email" id="email" placeholder="Email " name="email"><br>
+      <input type="email" id="email" placeholder="Email " name="email">
       <label>Category</label>
       <select id="dropdown" name="role" required>
         <option disabled selected value>Select</option>
@@ -35,11 +39,11 @@
         <option value="learner">ST</option>
         <option value="preferNo">OBC</option>
         <option value="other">PH</option>
-      </select><br>
+      </select>
       
-      <label>What would you like to see improved?</label> <br>
+      <label>What would you like to see improved?</label> 
       <label>
-        <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox"/>Front-end Projects
+        <input name="prefer" value="front-end-projects"  type="checkbox" class="input-checkbox"/>Front-end Projects
       </label>
       <label>
         <input name="prefer" value="back-end-projects" type="checkbox"class="input-checkbox"/>Back-end Projects
@@ -48,25 +52,25 @@
         <input name="prefer"  value="data-visualization" type="checkbox" class="input-checkbox" />Data Visualization
       </label>
       <label>
-        <input name="prefer"  value="challenges"type="checkbox" class="input-checkbox"/>Challenges
+        <input name="prefer"  value="challenges"type="checkbox" class="input-checkbox"/>Security services
       </label >
       <label>
         <input name="prefer" value="content" type="checkbox" class="input-checkbox" />Content-Designer
       </label >
       <label>
-        <input name="prefer" value="videos" type="checkbox" class="input-checkbox" >Video
+        <input name="prefer" value="videos" type="checkbox" class="input-checkbox" >Animation-Designer
       </label>
-      <br>
-      <label>Communication Address
-      <textarea id="comments" name="comment" placeholder="Enter your address here..."  ></textarea>
-    </label><br>
+      
+      <label>Communication Address</label>
+      <textarea class="page" id="comments" name="comment" placeholder="Enter your address here..."  ></textarea>
+    
       <label>Pincode</label>
-      <input type="number" minlength="0" maxlength="6"  placeholder="Enter your pincode"><br>
-      <br>
+      <input type="number" minlength="0" maxlength="6"  placeholder="Enter your pincode">
+      
       <button type="submit" class="submit-button" id="submit" >Submit</button>
   
     </div>
   </form>   
-  
+
   </body> 
 </html>
