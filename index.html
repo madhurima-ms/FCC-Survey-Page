@@ -3,7 +3,7 @@
   <head>
     <title>survey form</title>  
     <link href="survey.css" type="text/css" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
   </head> 
   <body>
    
@@ -21,12 +21,12 @@
       <label id="name-label" class="space" for="name">Name of the Candidate</label>
       <input class="space input-bar" type="text" name="fname" id="name"  placeholder="Name" ><br>
       <label class="space" > Date of birth</label>
-      <input class= "space input-bar" type="date" name="dob"><br>
-      <label class="space" for="male">Male
-      <input  type="radio" name="male" id="male">
-      <label class="space" for="female">Female
+      <input class="space input-bar" type="date" name="dob"><br>
+      <label for="male">Male
+      <input type="radio" name="male" id="male">
+      <label for="female">Female
       <input type="radio" name="female" id="female">
-      <label class="space" for="other">Other 
+      <label  for="other">Other 
       <input type="radio" name="other" id="other"><br><br>
       <label class="space" id="number-label" for="mnumber">Mobile Number</label>
       <input class="space input-bar" type="number" id="number" maxlength="10" minlength="0" required="true" placeholder="Mobile Number"><br><br>
@@ -45,7 +45,6 @@
       <label class="space" >What would you like to see improved?</label>
       <label><br>
 
-        
         <li>
           <input id="java" type="checkbox" value="java" />
           <label for="java">Java</label>
@@ -72,10 +71,10 @@
     </li><br>
 
     <label class="space">Communication Address</label><br>
-    <textarea class="space page input-bar" id="comments" name="comment" placeholder="Enter your address here..."  ></textarea><br><br>
+    <textarea class="space input-bar" id="comments" name="comment" placeholder="Enter your address here..."  ></textarea><br><br>
     
     <label class="space"> Pincode</label><br>
-      <input class = "space input-bar" type="number" minlength="0" maxlength="6"  placeholder="Enter your pincode"><br><br>
+      <input class="space input-bar" type="number" minlength="0" maxlength="6"  placeholder="Enter your pincode"><br><br>
       
     <button type="submit" class="submit-button" id="submit" >Submit</button>
   
@@ -84,4 +83,3 @@
 
   </body> 
 </html>
-
