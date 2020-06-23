@@ -48,11 +48,16 @@ body{
   margin: 0 auto;
   display: grid;
   border-width: 1px;
+
 }
 .space{
 font-size: 22px;
 font-style: bold;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+}
+
+.input-bar{
+  width: 220px;
 }
 
